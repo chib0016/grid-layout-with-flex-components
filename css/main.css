@@ -1,0 +1,62 @@
+```css
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 2rem;
+}
+
+.siteheader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.emojis {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.emoji {
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.emoji h2 {
+  margin: 0;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+.icon {
+  font-size: 4rem;
+  text-align: center;
+  order: -1;
+  margin-bottom: 1rem;
+}
+
+.emoji p {
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+.emoji a {
+  text-decoration: none;
+  background-color: #781BAA;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.emoji a:hover {
+  background-color: #5f1488;
+}
+```
